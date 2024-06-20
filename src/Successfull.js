@@ -291,8 +291,8 @@ export default function Successfull({ navigation, route }) {
       let date = new Date()
       var S3 = require("aws-sdk/clients/s3");
       const BUCKET_NAME = "byaahlagan-profile-image";
-      const IAM_USER_KEY = "AKIA6GB4RFKTDTDA6E2O";
-      const IAM_USER_SECRET = "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";
+      const IAM_USER_KEY = "ACCESS KEY";
+      const IAM_USER_SECRET = "SECRET KEY";
   
       var result = "";
       var characters =
